@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zoologia - Lagartos</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+  <link rel="icon" href="image.png">
+</head>
+<body>
+  <header>
+    <h1>Zoologia</h1>
+    <h2>Lagarto: Dragonsito azul </h2>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="ubicasion.html">Ubicasion</a></li>
+      <li><a href="alimentacion.html">Alimentacion</a></li>
+      <li><a href="peligro.html">Peligro de extinsion</a></li>
+      <li><a href="evitar.html">¿Como evitar la extincion?</a></li>
+      <li><a href="opiniones.html">Opiniones</a></li>
+    </ul>
+  </nav>
+  <center>
+  <h2 >Formulario de Retroalimentación</h2>
+  </center>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    /* Estilos para el formulario */
+    /* Puedes personalizar los estilos a tu gusto */
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+                                          
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+    }
+
+    input[type="submit"] {
+      margin-top: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  
+  <form method="POST" action="lagarto.html">
+    <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+    <br>
+    <br>
+    <label for="confirmacion">Confirma que no eres un robot:
+    <input type="checkbox" id="confirmacion" name="confirmacion" required></label>
+    <br>
+
+    <label for="quejas_recomendaciones">Quejas y recomendaciones:</label>
+    <textarea id="quejas_recomendaciones" name="quejas_recomendaciones" required></textarea>
+
+    <label for="correo">Correo electronico:</label>
+    <input type="email" id="correo" name="correo" required>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <input type="submit" name="util" value="Me fue util la informacion">
+    <input type="submit" name="no_util" value="No me fue util la informacion">
+  </form>
+  <br><br>
+  </center>
+  </section>
+  <footer>
+    <p>Teléfono: 123-456-7890</p>
+    <p>Email: info@dragonsito-azul.com</p>
+    
+  </footer>
+</body>
+</html>
+

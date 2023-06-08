@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, section, footer {
+  padding: 20px;
+}
+
+header {
+  background-color: #f2f2f2;
+}
+header h1{
+  text-align: center;
+}
+header h2{
+  text-align: center;
+  color: #078b85;
+}
+
+nav {
+  background-color: #078b85;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #7ceee8;
+  text-align: center;
+}
+section p{
+  text-align: justify;
+}
+
+section img{
+  margin: 3px;
+}
+footer a{
+  color: #555;
+}
+section #extincion{
+  text-align: center;
+} 
